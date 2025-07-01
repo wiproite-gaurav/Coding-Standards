@@ -64,10 +64,3 @@ Examples include string formatting, JSON parsing, SOQL-safe filters, and excepti
 Emphasis on reusability and testability.
 
 ---
-
-> ✍️ Each topic above links to a detailed Markdown guide with examples, code snippets, and plain-language explanations.  
-> These reflect the original standards exactly — we only expand, clarify, and explain better.
-
-> 🧭 Use this as your team's single source of truth for writing consistent and scalable Salesforce code.
-
----
