@@ -21,9 +21,9 @@ Use the same name as the class being tested, with `Test` appended.
 
 ---
 
-## 🔹 Maintain At Least 75% Coverage
+## 🔹 Maintain At Least 80% Coverage
 
-Salesforce requires a **minimum of 75% code coverage** for deployment.
+Salesforce requires a **minimum of 80% code coverage** for deployment.
 However, your goal should be **meaningful coverage**, not just hitting the number.
 
 > ✅ Cover both positive and negative scenarios
