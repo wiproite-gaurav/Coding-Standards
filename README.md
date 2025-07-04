@@ -4,7 +4,7 @@ Welcome to the **Salesforce Code Standardisation Handbook** — a practical, rea
 
 This handbook reflects real-world experience and internal best practices.  
 Whether you're a new developer or a seasoned architect, these modular guides will help you write robust and consistent Apex, LWC, and declarative configurations across teams.  
-Every point listed here is rooted in the **Zayo's original standardisation document** — **nothing is skipped or altered**.
+Every point listed here is rooted in the **Original standardisation document** — **nothing is skipped or altered**.
 
 ---
 
