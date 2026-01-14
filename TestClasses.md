@@ -7,15 +7,15 @@ This section outlines best practices for creating clean, maintainable, and high-
 
 ## 🔹 Follow Naming Conventions
 
-Use the same name as the class being tested, with `Test` appended.
+Use `test` as prefix followed by the class being tested.
 
 **Format:**
 ```
-<ClassName>Test
+test<ClassName>
 ```
 **Examples:**
-- `AccountTriggerHandlerTest`
-- `OpportunityServiceTest`
+- `testAccountTriggerHandler`
+- `testOpportunityService`
 
 > ✅ Helps quickly identify what the test class is covering
 
@@ -37,7 +37,7 @@ This ensures they’re excluded from org limits and packaged deployments.
 
 ```apex
 @isTest
-private class AccountTriggerHandlerTest {
+private class testAccountTriggerHandler {
     @isTest
     static void testAccountInsert() {
         // test logic
@@ -134,7 +134,7 @@ System.assertEquals('Expected', actual);
 ---
 
 ✅ **Summary:**
-- Use consistent naming (`ClassNameTest`)
+- Use consistent naming (`test<ClassName>`)
 - Separate setup, action, and assertions
 - Use test factories for reusable setup
 - Cover bulk, edge, and error cases
